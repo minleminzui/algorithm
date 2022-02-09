@@ -26,7 +26,7 @@
 
  [剑指 Offer 65. 不用加减乘除做加法 `位运算`](./leetcode/不用加减乘除做加法.md) 
 
-[LRU 缓存 `链表`](./leetcode/LRU 缓存.md)
+[LRU 缓存 `链表`](./leetcode/LRU缓存.md)
 
 [面试题19. 正则表达式匹配 `二维dp`](./leetcode/正则表达式匹配.md)
 
