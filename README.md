@@ -41,3 +41,9 @@
 [二叉树的后序遍历 `栈 树`](./leetcode/二叉树的后序遍历.md) 
 
 [组合总和 `dfs 回溯` ](./leetcode/组合总和.md)
+
+[排序链表 `链表`](./leetcode/排序链表.md)
+
+[组合总和III `dfs 回溯`](./leetcode/组合总和III.md)
+
+[ 括号生成  `dfs 回溯`](h./leetcode/括号生成.md)
