@@ -46,4 +46,17 @@
 
 [组合总和III `dfs 回溯`](./leetcode/组合总和III.md)
 
-[ 括号生成  `dfs 回溯`](h./leetcode/括号生成.md)
+[ 括号生成  `dfs 回溯`](./leetcode/括号生成.md)
+
+[火柴拼正方形`dfs 回溯`](./leetcode/火柴拼正方形.md))
+
+[N皇后 II `dfs 回溯`](./leetcode/N皇后II.md))
+
+[解数独 `dfs 回溯`](./leetcode/解数独.md)
+
+[给表达式添加运算符`dfs 回溯`](./leetcode/给表达式添加运算符.md)
+
+[对称二叉树`dfs bfs 树`](./leetcode/对称二叉树.md)
+
+[删除无效的括号`dfs 回溯`](./leetcode/删除无效的括号.md)
+
