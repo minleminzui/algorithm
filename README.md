@@ -48,9 +48,9 @@
 
 [ 括号生成  `dfs 回溯`](./leetcode/括号生成.md)
 
-[火柴拼正方形`dfs 回溯`](./leetcode/火柴拼正方形.md))
+[火柴拼正方形`dfs 回溯`](./leetcode/火柴拼正方形.md)
 
-[N皇后 II `dfs 回溯`](./leetcode/N皇后II.md))
+[N皇后 II `dfs 回溯`](./leetcode/N皇后II.md)
 
 [解数独 `dfs 回溯`](./leetcode/解数独.md)
 
