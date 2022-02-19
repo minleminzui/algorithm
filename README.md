@@ -60,3 +60,35 @@
 
 [删除无效的括号`dfs 回溯`](./leetcode/删除无效的括号.md)
 
+[Symmetric Tree `dfs bfs 树` ](./leetcode/Symmetric_Tree.md)
+
+[二叉树的最大深度  `dfs bfs 树`](./leetcode/二叉树的最大深度.md)
+
+[二叉树的层序遍历`dfs bfs 树`](./leetcode/二叉树的层序遍历.md)
+
+[两数之和 IV - 输入 BST`dfs bfs 树`](./leetcode/两数之和IV.md)
+
+[验证二叉树的前序序列化 `树 栈`](./leetcode/验证二叉树的前序序列化.md)
+
+[从前序与中序遍历序列构造二叉树 `树 hash`](./leetcode/从前序与中序遍历序列构造二叉树.md)
+
+[二叉树的最近公共祖先 `dfs 树`](./leetcode/二叉树的最近公共祖先.md)
+
+[二叉树的直径`dfs 树`](./leetcode/二叉树的直径.md)
+
+[二叉树中的最大路径和`dfs 树`](./leetcode/二叉树中的最大路径和.md)
+
+[填充每个节点的下一个右侧节点指针II`bfs 树`](./leetcode/填充每个节点的下一个右侧节点指针II.md)
+
+[恢复二叉搜索树 `栈 树`](./leetcode/恢复二叉搜索树.md)
+
+[打家劫舍III `树形dp dfs`](./leetcode/打家劫舍III.md)
+
+[扰乱字符串 `区间dp`](./leetcode/扰乱字符串.md)
+
+[最大子数组和 `线性dp`](./leetcode/最大子数组和.md)
+
+[最长递增子序列 `线性dp 二分`](./leetcode/最长递增子序列.md)
+
+[编辑距离 `二维dp`](./leetcode/编辑距离.md)
+
