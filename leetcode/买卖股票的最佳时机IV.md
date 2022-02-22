@@ -1,0 +1,54 @@
+```cpp
+class Solution {
+public:
+    int maxProfit(int k, vector<int>& prices) {
+        // dp, 时间复杂度O(n * k) 空间复杂度为O(n * k)
+        int n = prices.size();
+        if(n == 0) return 0;
+        // vector<vector<vector<int>>> dp(n, vector<vector<int>>(k + 1, vector<int>(2)));
+
+        // for(int i = 0; i < n; ++i){
+        //     dp[i][0][0] = 0; // 第i + 1天,没有进行交易,且没有持有股票,dp值为0
+        //     dp[i][0][1] = INT_MIN;// 第i + 1天,没有进行交易,但持有股票(这是不可能的),dp值为INT_MIN
+        // }
+
+        // // 初始化,对第1天,进行第i次交易, 持有股票与未持有股票的dp值
+        // for(int i = 1; i <= k; ++i){
+        //     dp[0][i][1] = -prices[0];
+        //     dp[0][i][0] = 0;
+        // }
+
+        // for(int i = 1; i < n; ++i){
+        //     for(int j = 1; j <= k; ++j){
+        //         // 状态转移方程是表示,对于第i天做操作与不做操作之间之间的抉择,
+        //         // 不做操作意味着,继承前一天的值,也就是i继承i - 1天的值
+        //         // 做操作就是,对于持有股票,就是第j - 1次操作转化为第j次操作
+        //         dp[i][j][1] = max(dp[i - 1][j][1], dp[i - 1][j - 1][0] - prices[i]);
+        //         // 而对于第j次不持有股票,也就是抛售股票,就需要第j次持有票转化为第j次抛售股票
+        //         dp[i][j][0] = max(dp[i - 1][j][0], dp[i - 1][j][1] + prices[i]);
+        //     }
+        // }
+
+        // return dp[n - 1][k][0];
+
+        // 优化dp, 我们看到第i天只依赖与第i - 1天,也就是之前的状态可以不用保存了
+        // 这里优化了空间, 使得空间复杂度为O(k)
+        vector<vector<int>> dp(k + 1, vector<int>(2));
+        dp[0][0] = 0, dp[0][1] = INT_MIN;
+        for(int i = 1; i <= k; ++i){
+            dp[i][1] = -prices[0];
+            dp[i][0] = 0;
+        }
+
+        for(int i = 1; i < n; ++i){
+            for(int j = 1; j <= k; ++j){
+                dp[j][1] = max(dp[j][1], dp[j - 1][0] - prices[i]);
+                dp[j][0] = max(dp[j][0], dp[j][1] + prices[i]);
+            }
+        }
+
+        return dp[k][0];
+    }
+};
+```
+

@@ -92,3 +92,21 @@
 
 [编辑距离 `二维dp`](./leetcode/编辑距离.md)
 
+[买卖股票的最佳时机 `线性dp`](./leetcode/买卖股票的最佳时机.md)
+
+[买卖股票的最佳时机II`线性dp`](./leetcode/买卖股票的最佳时机II.md)
+
+[买卖股票的最佳时机III`线性dp`](./leetcode/买卖股票的最佳时机III.md)
+
+[买卖股票的最佳时机IV`线性dp`](./leetcode/买卖股票的最佳时机IV.md)
+
+[最佳买卖股票时机含冷冻期`线性dp`](./leetcode/最佳买卖股票时机含冷冻期.md)
+
+[买卖股票的最佳时机含手续费`线性dp`](./leetcode/买卖股票的最佳时机含手续费.md)
+
+[打家劫舍`线性dp`](./leetcode/打家劫舍.md)
+
+[打家劫舍II`线性dp`](./leetcode/打家劫舍II.md)
+
+[戳气球 `区间dp`](./leetcode/戳气球.md)
+
