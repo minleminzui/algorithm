@@ -173,3 +173,36 @@
 [264丑数II `线性dp`](./leetcode/264丑数II.md)
 
 [115.不同的子序列 `二维dp`](./leetcode/115.不同的子序列.md)
+
+[486.预测赢家`区间dp 博弈论`](./leetcode/486.预测赢家.md)
+
+[526.优美的排列 `状压dp`](./leetcode/526.优美的排列.md)
+
+[131.分割回文串 `区间dp dfs`](./leetcode/131.分割回文串.md)
+
+[132.分割回文串II `二维dp`](./leetcode/132.分割回文串II.md)
+
+[111.二叉树的最小深度 `dfs bfs 树`](./leetcode/111.二叉树的最小深度.md)
+
+[279.完全平方数 `完全背包dp bfs`](./leetcode/279.完全平方数.md)
+
+[733.图像渲染 `dfs`](./leetcode/733.图像渲染.md)
+
+[207.课程表 `拓扑排序 dfs bfs`](./leetcode/207.课程表.md)
+
+[210.课程表II`拓扑排序 dfs bfs`](./leetcode/210.课程表II.md)
+
+[200.岛屿数量 `dfs bfs`](./leetcode/200.岛屿数量.md)
+
+[127.单词接龙 `双向bfs`](./leetcode/127.单词接龙.md)
+
+[402.移掉K位数字 `贪心`](./leetcode/402.移掉K位数字.md)
+
+[135.分发糖果`贪心`](./leetcode/135.分发糖果.md)
+
+[55.跳跃游戏`贪心`](./leetcode/55.跳跃游戏.md)
+
+[134.加油站`贪心`](./leetcode/134.加油站.md)
+
+[45.跳跃游戏II`贪心 dp`](./leetcode/45.跳跃游戏II.md)
+
