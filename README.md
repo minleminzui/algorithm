@@ -514,6 +514,10 @@
 
 [191. 位1的个数 `位运算`](./leetcode/191.位1的个数.md)
 
+[442. 数组中重复的数据 `hash, index sort`](./leetcode/442.数组中重复的数据.md)
+
+[剑指 Offer 61. 扑克牌中的顺子 `排序`](./leetcode/剑指Offer61.扑克牌中的顺子.md)
+
 
 ## AcWing
 
