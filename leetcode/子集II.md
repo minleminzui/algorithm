@@ -64,3 +64,48 @@ public:
 };
 
 ```
+
+```go
+type MyType []int
+
+func (n MyType) Less(i, j int) bool {
+    return n[i] < n[j]
+}
+
+func (n MyType) Len() int {
+    return len(n)
+}
+
+func (n MyType) Swap(i, j int) {
+    n[i], n[j] = n[j], n[i]
+}
+
+func subsetsWithDup(nums MyType) [][]int {
+    sort.Sort(nums)
+
+    var res [][]int
+    var now []int
+    vis := make([]bool, len(nums))
+    help(now, nums, 0, &res, vis)
+    return res
+}
+
+func help(now, nums []int, index int, res *[][]int, vis []bool) {
+    temp := make([]int, len(now))
+    copy(temp, now)
+    *res = append(*res, temp)
+
+    // 选或者不选
+    for i := index; i < len(nums); i++ {
+        if i > 0 && nums[i] == nums[i - 1] && !vis[i - 1] {
+            continue
+        }
+        vis[i] = true
+        now = append(now, nums[i])
+        help(now, nums, i + 1, res, vis)
+        vis[i] = false
+        now = now[:len(now) - 1]
+    }
+}
+```
+

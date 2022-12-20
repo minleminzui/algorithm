@@ -29,3 +29,27 @@ public:
 };
 ```
 
+```go
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func getKthFromEnd(head *ListNode, k int) *ListNode {
+    var dummy ListNode
+    dummy.Next = head
+    mov := &dummy
+    for i := 0; i < k; i++ {
+        head = head.Next
+    }
+
+    for head != nil {
+        mov = mov.Next
+        head = head.Next
+    }
+    return mov.Next
+}
+```
+
