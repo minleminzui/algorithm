@@ -550,6 +550,14 @@
 
 [85. 最大矩形 `单调栈`](./leetcode/85.最大矩形.md)
 
+[剑指 Offer 03. 数组中重复的数字 `index sort hash`](./leetcode/剑指Offer03.数组中重复的数字.md)
+
+[剑指 Offer 48. 最长不含重复字符的子字符串 `滑动窗口`](./leetcode/剑指Offer48.最长不含重复字符的子字符串.md)
+
+[18. 四数之和 `双指针`](./leetcode/18.四数之和.md)
+
+[525. 连续数组 `hash`](./leetcode/525.连续数组.md)
+
 
 
 ## AcWing
