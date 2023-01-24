@@ -596,6 +596,12 @@
 
 [409. 最长回文串 `hash表`](./leetcode/409.最长回文串.md)
 
+[451. 根据字符出现频率排序 `hash表 桶排序`](./leetcode/451.根据字符出现频率排序.md)
+
+[454. 四数相加 II `hash表`](./leetcode/454.四数相加II.md)
+
+[895. 最大频率栈 `hash表`](./leetcode/895.最大频率栈.md)
+
 
 
 ## AcWing
