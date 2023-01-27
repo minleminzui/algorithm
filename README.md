@@ -612,6 +612,10 @@
 
 [187. 重复的DNA序列 `hash表`](./leetcode/187.重复的DNA序列.md)
 
+[205. 同构字符串 `hash表`](./leetcode/205.同构字符串.md)
+
+[726. 原子的数量 `hash表 stack`](./leetcode/726.原子的数量.md)
+
 
 
 ## AcWing
