@@ -616,6 +616,12 @@
 
 [726. 原子的数量 `hash表 stack`](./leetcode/726.原子的数量.md)
 
+[1160. 拼写单词 `hash表 `](./leetcode/1160.拼写单词.md)
+
+[463. 岛屿的周长 `hash表 `](./leetcode/463.岛屿的周长.md)
+
+[30. 串联所有单词的子串 `hash表 滑动窗口`](./leetcode/30.串联所有单词的子串.md)
+
 
 
 ## AcWing
