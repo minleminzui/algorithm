@@ -738,3 +738,6 @@
 [NC311圆环回原点 `dp`](./newcoder/NC311圆环回原点.md)
 
 [计算数组的小和 `排序 数组`](./newcoder/计算数组的小和.md)
+
+## Pytorch
+- [why-do-we-need-to-call-zero-grad-in-pytorch](https://stackoverflow.com/questions/48001598/why-do-we-need-to-call-zero-grad-in-pytorch)
