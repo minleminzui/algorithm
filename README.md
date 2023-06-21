@@ -52,9 +52,11 @@
 
 [剑指 Offer 60. n个骰子的点数 `线性dp`](./leetcode/n个骰子的点数.md)
 
-[电话号码的字母组合 `回溯 dfs`](./leetcode/电话号码的字母组合.md)
+[17.电话号码的字母组合 `回溯 dfs`](./leetcode/17.电话号码的字母组合.md)
 
 [47.全排列II `回溯 dfs`](./leetcode/47.全排列II.md)
+
+[77. 组合 `回溯 dfs`](./leetcode/77.组合.md)
 
 [子集 II `回溯 dfs`](./leetcode/子集II.md)
 
@@ -69,6 +71,8 @@
 [火柴拼正方形`dfs 回溯`](./leetcode/火柴拼正方形.md)
 
 [N皇后 II `dfs 回溯`](./leetcode/N皇后II.md)
+
+[51. N 皇后 `dfs 回溯`](./leetcode/51.N皇后.md)
 
 [解数独 `dfs 回溯`](./leetcode/解数独.md)
 
@@ -112,7 +116,7 @@
 
 [300.最长递增子序列 `线性dp 二分`](./leetcode/300.最长递增子序列.md)
 
-[编辑距离 `二维dp`](./leetcode/编辑距离.md)
+[72.编辑距离 `二维dp`](./leetcode/72.编辑距离.md)
 
 [买卖股票的最佳时机 `线性dp`](./leetcode/买卖股票的最佳时机.md)
 
@@ -126,9 +130,9 @@
 
 [买卖股票的最佳时机含手续费`线性dp`](./leetcode/买卖股票的最佳时机含手续费.md)
 
-[打家劫舍`线性dp`](./leetcode/打家劫舍.md)
+[198. 打家劫舍`线性dp`](./leetcode/198.打家劫舍.md)
 
-[213.打家劫舍II`线性dp`](./leetcode/打家劫舍II.md)
+[213.打家劫舍II`线性dp`](./leetcode/213.打家劫舍II.md)
 
 [312.戳气球 `区间dp`](./leetcode/312.戳气球.md)
 
