@@ -300,6 +300,10 @@
 
 [31.下一个排列 `数组 排序`](./leetcode/31.下一个排列.md)
 
+[556. 下一个更大元素 III `数组 排序`](./leetcode/556.下一个更大元素III.md)
+
+[862. 和至少为 K 的最短子数组 `双端队列`](./leetcode/862.和至少为K的最短子数组.md)
+
 [20.有效的括号 `栈`](./leetcode/20.有效的括号.md)
 
 [102.二叉树的层序遍历 `bfs`](./leetcode/102.二叉树的层序遍历.md)
@@ -756,12 +760,29 @@
 
 [2246. 相邻字符不同的最长路径 `dfs 树`](./leetcode/2246.相邻字符不同的最长路径.md)
 
+[538. 把二叉搜索树转换为累加树 `dfs 树`](./leetcode/538.把二叉搜索树转换为累加树.md)
+
+[621. 任务调度器 `dfs 树`](./leetcode/621.任务调度器.md)
+
+[399. 除法求值 `dfs 树`](./leetcode/399.除法求值.md)
+
 
 
 
 ## AcWing
 
 [1015.摘花生 `二维dp`](./acwing/1015.摘花生.md)
+
+[785. 快速排序 `快速排序`](./acwing/785.快速排序.md)
+
+[786. 第k个数 `快速排序`](./acwing/786.第k个数.md)
+
+[787. 归并排序 `归并排序`](./acwing/787.归并排序.md)
+
+[788. 逆序对的数量 `归并排序`](./acwing/788.逆序对的数量.md)
+
+[838. 堆排序 `归并排序`](./acwing/838.堆排序.md)
+
 
 [1018.最低通行费 `二维dp`](./acwing/1018.最低通行费.md)
 
@@ -782,6 +803,8 @@
 [NC311圆环回原点 `dp`](./newcoder/NC311圆环回原点.md)
 
 [计算数组的小和 `排序 数组`](./newcoder/计算数组的小和.md)
+
+[36进制加法 `模拟`](./newcoder/36进制加法.md)
 
 ## Pytorch
 - [why-do-we-need-to-call-zero-grad-in-pytorch](https://stackoverflow.com/questions/48001598/why-do-we-need-to-call-zero-grad-in-pytorch)
